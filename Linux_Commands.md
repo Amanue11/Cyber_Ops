@@ -8,7 +8,7 @@
 
 * Go to https://overthewire.org/wargames/bandit/
 * Open Temrminal 
-* <ssh bandit.labs.overthewire.org -p 2220 -l bandit>
+* ```ssh bandit.labs.overthewire.org -p 2220 -l bandit```
 
 
 
