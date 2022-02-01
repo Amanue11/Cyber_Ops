@@ -67,7 +67,13 @@
 ### Level 6
 1. ``` ssh bandit.labs.overthewire.org -p 2220 -l bandit6 ```
 2. Enter the password retrived from level 5
-3.  
+3. ```cd ..```
+4. ```cd ..```
+5. ```find -size 33c```
+6. copy ```/var/lib/dpkg/info/bandit7.password```
+7. ```cat /var/lib/dpkg/info/bandit7.password```
+8. the password is ```HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs```
+
 
 
 
