@@ -75,6 +75,22 @@
 8. the password is ```HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs```
 
 
+### Level 7 
+1. ``` ssh bandit.labs.overthewire.org -p 2220 -l bandit7 ```
+2. ```ls```
+3. ```grep "millionth" data.txt```
+4. ```cvX2JJa4CFALtqS87jk27qwqGhBM9plV```
+
+
+### level 8 sort data
+1. ``` ssh bandit.labs.overthewire.org -p 2220 -l bandit8 ```
+2. ```ls ```
+3. ```sort data.txt | uniq -u ```
+4. ``` UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR ```
+5. 
+
+
+
 
 
 
