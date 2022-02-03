@@ -87,7 +87,26 @@
 2. ```ls ```
 3. ```sort data.txt | uniq -u ```
 4. ``` UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR ```
-5. 
+
+
+### Level 9 
+1. ```ssh bandit.labs.overthewire.org -p 2220 -l bandit9 ```
+2. ``` ls ```
+3. ```strings data.txt | grep = ```
+4. ``` truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk ```
+
+
+### level 10 decoding
+1. ```ssh bandit.labs.overthewire.org -p 2220 -l bandit10 ```
+2. ```ls```
+3. ```cat data.txt ```
+4. copy the encoding string ```VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg==```
+5. ```echo -n 'VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg==' | base64 decode ```
+6. the decoded string or paswwrd is ```IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR```
+
+
+### Level 11 
+1. ```ssh bandit.labs.overthewire.org -p 2220 -l bandit11 ```
 
 
 
